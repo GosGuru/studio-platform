@@ -1,0 +1,11 @@
+# Workspaces del monorepo (ver ADR-001).
+packages:
+  - "apps/*"
+  - "packages/*"
+
+# pnpm >= 10 bloquea scripts de instalación de dependencias por defecto.
+# Allowlist explícita (pnpm 11: allowBuilds) de paquetes cuyo build script
+# está aprobado.
+allowBuilds:
+  sharp: true
+  unrs-resolver: true
