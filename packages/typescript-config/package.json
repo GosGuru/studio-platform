@@ -1,0 +1,11 @@
+{
+  "name": "@studio/typescript-config",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Configuración compartida de TypeScript (modo estricto) para el monorepo.",
+  "license": "UNLICENSED",
+  "files": [
+    "base.json",
+    "nextjs.json"
+  ]
+}

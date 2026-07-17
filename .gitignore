@@ -1,0 +1,32 @@
+# Dependencias
+node_modules/
+
+# Next.js
+.next/
+out/
+build/
+
+# Turborepo
+.turbo/
+
+# Vercel
+.vercel/
+
+# TypeScript
+*.tsbuildinfo
+# Generado y administrado por Next.js; no se versiona.
+**/next-env.d.ts
+
+# Variables de entorno (los ejemplos seguros .env.example sí se versionan)
+.env
+.env.*
+!.env.example
+
+# Sistema operativo / editor
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*

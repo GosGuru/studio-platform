@@ -1,0 +1,11 @@
+node_modules/
+.next/
+.turbo/
+.vercel/
+out/
+build/
+pnpm-lock.yaml
+
+# Documentación de Fase 0: se conserva tal cual (contrato PR-005, regla 1).
+docs/
+*.md

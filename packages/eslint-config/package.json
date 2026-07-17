@@ -1,0 +1,15 @@
+{
+  "name": "@studio/eslint-config",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Configuración compartida de ESLint (flat config) para el monorepo.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "exports": {
+    "./next": "./next.mjs"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "eslint-config-next": "16.2.10"
+  }
+}

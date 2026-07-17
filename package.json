@@ -1,0 +1,23 @@
+{
+  "name": "studio-platform",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Monorepo del estudio: web pública (apps/web) y panel administrativo (apps/admin).",
+  "packageManager": "pnpm@11.13.1",
+  "engines": {
+    "node": ">=22",
+    "pnpm": "11.13.1"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "turbo": "^2.10.5"
+  }
+}
