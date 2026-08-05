@@ -1,0 +1,21 @@
+[
+  "unauthorized",
+  "invalid_request",
+  "insufficient_scope",
+  "audit_lookup_failed",
+  "idempotency_conflict",
+  "operation_in_progress",
+  "idempotency_race",
+  "audit_start_failed",
+  "audit_finalize_failed",
+  "invalid_clients_reference",
+  "invalid_projects_reference",
+  "invalid_deals_reference",
+  "invalid_pipeline_stages_reference",
+  "invalid_prospects_reference",
+  "database_read_failed",
+  "validation_failed",
+  "database_write_failed",
+  "record_not_found",
+  "COMMAND_FAILED"
+]
